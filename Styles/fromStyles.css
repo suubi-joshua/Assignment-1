@@ -1,0 +1,129 @@
+/* General Page Styling */
+body {
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #1c1e21;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    margin: 0;
+}
+
+h1 {
+    color: #1a73e8;
+    margin-bottom: 30px;
+}
+
+/* Form Container */
+form {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    max-width: 550px;
+    width: 100%;
+}
+
+/* Fieldset and Grouping */
+fieldset {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+
+legend {
+    font-weight: 700;
+    padding: 0 10px;
+    color: #5f6368;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Input Elements */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="tel"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 18px;
+    border: 1px solid #dadce0;
+    border-radius: 6px;
+    box-sizing: border-box; /* Critical for layout */
+    font-size: 16px;
+    transition: border-color 0.2s;
+}
+
+input:focus, 
+textarea:focus {
+    outline: none;
+    border-color: #1a73e8;
+    box-shadow: 0 0 0 2px rgba(26, 115, 232, 0.2);
+}
+
+/* Inline Elements (Radio & Checkbox) */
+.inline-label {
+    display: inline;
+    font-weight: 400;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+input[type="radio"], 
+input[type="checkbox"] {
+    cursor: pointer;
+    accent-color: #1a73e8; /* Modern way to style radio/checkbox colors */
+}
+
+/* Button Styling */
+.btn-container {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+button {
+    flex: 1;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: transform 0.1s;
+}
+
+button[type="submit"] {
+    background-color: #1a73e8;
+    color: white;
+}
+
+button[type="submit"]:hover {
+    background-color: #1557b0;
+}
+
+button[type="reset"] {
+    background-color: #f1f3f4;
+    color: #3c4043;
+}
+
+button[type="reset"]:hover {
+    background-color: #e8eaed;
+}
+
+button:active {
+    transform: scale(0.98);
+}

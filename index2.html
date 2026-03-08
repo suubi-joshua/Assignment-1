@@ -3,43 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Bio</title>
-     <!-- <link rel="stylesheet" href="./Styles/styles.css"> -->
-    <!-- <link rel="stylesheet" href="./Styles/styles2.css"> -->
+    <title>My Bio | Software Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="./Styles/styles4.css"> 
 </head>
 <body>
+    <nav class="navbar">
+        <div class="nav-logo">DEV.PORTFOLIO</div>
+        <ul class="nav-links">
+            <li><a href="#introduction">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
     <div id="header">
-        <h1>About Me</h1>
         <img src="./Images/Profile.jpg" alt="Profile Picture" width="200" height="200">
+        <h1>Suubi Joshua</h1>
+        <p class="tagline">Full-Stack Developer</p>
+        
+        <div class="cta-group">
+            <button class="btn btn-primary">Hire Me</button>
+            <button class="btn btn-secondary">Let's Talk</button>
+        </div>
     </div>
     
     <div id="introduction">
-        <h2>Introduction</h2>
-        <p>
-            Hello! I'm a software developer with expertise in building modern web applications. 
-            I'm passionate about creating efficient and user-friendly solutions.
-        </p>
+        Hello! I'm a software developer with expertise in building modern web applications. 
+        I'm passionate about creating efficient and user-friendly solutions.
     </div>
-    
     <div id="skills">
-        <h2>Skills</h2>
-        <ul>
+         <h2>Skills</h2>
+         <ul>
             <li>Java</li>
             <li>React</li>
             <li>TypeScript</li>
             <li>FHIR</li>
         </ul>
     </div>
-    
     <div id="experience">
-        <h2>Experience</h2>
+         <h2>Experience</h2>
         <p>
             <strong>Current Position:</strong> Software Developer<br>
             <strong>Years of Experience:</strong> X years<br>
             <strong>Specialization:</strong> Full-stack development with focus on healthcare technology
         </p>
     </div>
-    
     <div id="media">
         <h2>Media</h2>
         <div id="video-section">
@@ -56,9 +66,8 @@
             </audio>
         </div>
     </div>
-    
     <div id="projects">
-        <h2>My Projects</h2>
+         <h2>My Projects</h2>
         <div class="project-card">
             <h3>Healthcare Management System</h3>
             <p>A full-stack application built with React and Java Spring Boot for managing patient records using FHIR standards.</p>
@@ -81,28 +90,14 @@
         </div>
     </div>
     
-    <div id="education">
-        <h2>Education</h2>
-        <p>
-            <strong>Degree:</strong> Your degree<br>
-            <strong>Institution:</strong> Your university<br>
-            <strong>Year:</strong> Year of graduation
-        </p>
-    </div>
-    
-    <div id="contact">
-        <h2>Contact</h2>
-        <p>
-            <strong>Email:</strong> <a href="mailto:your.email@example.com">your.email@example.com</a><br>
-            <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/yourprofile">linkedin.com/in/yourprofile</a><br>
-            <strong>GitHub:</strong> <a href="https://github.com/yourusername">github.com/yourusername</a>
-        </p>
-    </div>
-    
-    <hr>
-    
     <div id="footer">
-        <p>&copy; 2026 Your Name. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fas fa-envelope"></i></a>
+        </div>
+        <p>&copy; 2026 Your Name. Crafted with CSS.</p>
     </div>
 </body>
 </html>
